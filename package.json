@@ -1,5 +1,5 @@
 {
-  "name": "commandbot",
+  "name": "nanigasi_bot",
   "version": "1.0.0",
   "main": "./build/main.js",
   "license": "MIT",
