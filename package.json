@@ -1,0 +1,35 @@
+{
+  "name": "commandbot",
+  "version": "1.0.0",
+  "main": "./build/main.js",
+  "license": "MIT",
+  "engines": {
+    "node": "17.x"
+  },
+  "scripts": {
+    "start": "node build/main.js",
+    "build": "tsc -p tsconfig.json && tsc-alias -p tsconfig.json",
+    "lint": "eslint src/**/*",
+    "lint:fix": "eslint src/**/*"
+  },
+  "devDependencies": {
+    "@types/node": "17",
+    "@typescript-eslint/eslint-plugin": "^5.10.2",
+    "@typescript-eslint/parser": "^5.10.2",
+    "dotenv": "^16.0.0",
+    "eslint": "^8.8.0",
+    "eslint-config-prettier": "^8.3.0",
+    "ts-loader": "^9.2.6",
+    "ts-node": "^10.4.0",
+    "tsc-alias": "^1.5.0",
+    "tsconfig-paths-webpack-plugin": "^3.5.2",
+    "typescript": "^4.5.5",
+    "typescript-transform-paths": "^3.3.1",
+    "webpack": "^5.68.0",
+    "webpack-cli": "^4.9.2"
+  },
+  "dependencies": {
+    "axios": "^0.25.0",
+    "discord.js": "^13.6.0"
+  }
+}
